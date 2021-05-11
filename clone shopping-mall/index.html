@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>알프랑 그늘막 팝업 스피드 원터치 텐트</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sidebar_style.css">
+  <link rel="stylesheet" href="carousel_style.css">
+  <link rel="stylesheet" href="accordion_style.css">
+  <link rel="stylesheet" href="order_style.css">
+</head>
+
+
+
+<body>
+  <!-- sidebar -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <a href="#">음식</a>
+    <a href="#">가전</a>
+    <a href="#">가구</a>
+    <a href="#">캠핑용품</a>
+  </div>
+  <span class="openNavBtn">&#9776;</span>
+
+  <div class="container float-end">
+    <!-- carousel -->
+    <div class="left-container">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/1.jpg">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/2.jpg">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/3.jpg">
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+      <br>
+      <div class="thumb-container">
+        <img src="img/1.jpg" class="thumbnail">
+        <img src="img/2.jpg" class="thumbnail">
+        <img src="img/3.jpg" class="thumbnail">
+      </div>
+    </div>
+
+    <!-- accordion -->
+    <div class="right-container">
+      <div class="title">
+        <h3>알프랑 그늘막 팝업 스피드 원터치 텐트</h3>
+      </div>
+      <div class="price-container">
+        <span>73%</span>
+        <div class="price">
+          <del><span class="number">149,000</span>원</del>
+          <strong><span class="number">39,800</span>원</strong>
+        </div>
+      </div>
+
+      <div class="accordion-container">
+        <button class="accordion">판매자 정보</button>
+        <div class="panel">
+          <div>금오공과대학교</div>
+          <div>소프트웨어공학과</div>
+          <div>김텐트</div>
+        </div>
+
+        <button class="accordion">상품 정보</button>
+        <div class="panel">
+          <div>최신 텐트</div>
+          <div>원터치</div>
+          <div>방수</div>
+        </div>
+
+        <button class="accordion">주문 정보</button>
+        <div class="panel">
+          <!-- 주문 -->
+          <select name="products" class="products">
+            <option value="">선택</option>
+            <option value="A">A.스피드 원터치 팝업텐트(3~4인용)</option>
+            <option value="B">B.5초 원터치 텐트(3인용) (+10,000원)</option>
+            <option value="C">C.5초 원터치 텐트(5인용) (+20,000원)</option>
+          </select>
+          <ul class="selected-products">
+            <!-- <li class="added" value="A">
+              <p class="">A.스피드 원터치 팝업텐트(3~4인용)</p>
+              <div class="float-end">
+                <div class="change-amount">
+                  <button type="button" class="minus"></button>
+                  <input class="amount" type="text" value="1">
+                  <button type="button" class="plus"></button>
+                </div>
+                <span class="price"><span class="number" value="39800">39,800</span>원</span>
+              </div>
+              <button type="button" class="remove"></button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      
+      <!-- 주문 금액 -->
+      <div class="total-price-container float-end">
+        <strong class="total-price-label">총 상품 금액</strong>
+        <strong class="total-price"><span class="number">0</span>원</strong>
+      </div>
+      <button type="submit" class="order-button">
+        구매하기
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

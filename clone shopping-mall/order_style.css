@@ -1,0 +1,141 @@
+.products {
+    margin: 16px 0;
+    display: block;
+    width: 100%;
+    height: 34px;
+    border: 1px solid #d2d6dd;
+    color: #333333;
+}
+
+.selected-products {
+    box-shadow: inset 0 1px 0 0 #c7c7c7, inset 0 -1px 0 0 #c7c7c7;
+    padding: 0;
+}
+
+.selected-products li {
+    position: relative;
+    padding: 15px 14px 15px 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.selected-products p {
+    margin: 0 119px 12px 0;
+    color: #333333;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.selected-products .change-amount {
+    float: left;
+    height: 34px;
+    border: solid 1px #dde0e3;
+    vertical-align: top;
+}
+
+.selected-products .change-amount button {
+    float: left;
+    cursor: pointer;
+    position: relative;
+    width: 34px;
+    height: 100%;
+    background-color: #f1f2f4;
+}
+
+.selected-products .change-amount .amount {
+    float: left;
+    width: 44px;
+    height: 100%;
+    font-family: tahoma;
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    border: solid #eff1f5;
+    border-width: 0 1px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.selected-products .change-amount button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 1px;
+    margin: -0.5px 0 0 -5px;
+    background-color: #555555;
+    content: '';
+}
+
+.selected-products .change-amount .plus:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 10px;
+    margin: -5px 0 0 -0.5px;
+    background-color: #555555;
+    content: '';
+}
+
+.selected-products .price {
+    float: right;
+    margin: 8px 10px 0 0;
+    font-size: 13px;
+}
+
+.selected-products .price .number {
+    font-family: tahoma;
+    font-weight: bold;
+    color: #222222;
+    font-size: 15px;
+}
+
+.selected-products .remove {
+    position: absolute;
+    right: 0;
+    bottom: 29px;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    background-image: url(img/spIcon_svg.svg);
+    background-size: 678px 677px;
+    background-position: -477px -610px;
+}
+
+
+
+.total-price-container {
+    margin-top: 19px;
+}
+
+.total-price-container .total-price-label {
+    line-height: 26px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.total-price-container .total-price {
+    line-height: 20px;
+    float: right;
+    color: #6b90dc;
+    font-size: 18px;
+}
+
+.total-price-container .total-price .number {
+    position: relative;
+    top: 2px;
+    font-family: tahoma;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.order-button {
+    display: block;
+    position: relative;
+    width: 45%;
+    height: 50px;
+    background-color: #3fc910;
+    font-size: 16px;
+    color: white;
+    margin: 15px auto 0 auto;
+}
